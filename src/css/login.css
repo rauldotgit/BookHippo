@@ -57,8 +57,10 @@
 .login--container {
     display: grid;
     margin: 0;
-    grid-template-columns: 25rem;
-    grid-template-rows: 6rem 20rem;
+    width: 30%;
+    height: 40%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr;
     flex-direction: column;
     justify-content: center;
     align-items: center;
