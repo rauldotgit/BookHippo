@@ -111,11 +111,17 @@
     background-color: white;
 }
 
+.login--form > p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--desaturated-blue);
+    margin-bottom: 0;
+}
+
 .login--title{
     color: var(--dark-blue);
-    font-size: xx-large;
+    font-size: xx-large; 
     font-weight: 700;
-    margin-bottom: 3rem;
 }
 
 .login--input {

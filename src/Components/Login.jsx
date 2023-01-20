@@ -9,7 +9,7 @@ export default function Login(props){
     
     function handleSubmit(event) {
         event.preventDefault()
-        if(formData.password === "cacamaca2506"){
+        if(formData.password === "HookBippo"){
             setFormData({password: ""})
             props.lock()
         } else console.log("wrong password")
@@ -34,7 +34,8 @@ export default function Login(props){
 
             <form className="login--form" onSubmit={handleSubmit}>
 
-                <h1 className="login--title">Sers Mamuca!</h1>
+                <h1 className="login--title">Hey there!</h1>
+                <p>Current password is "HookBippo123"</p>
                 
                 <input 
                     type="password" 
