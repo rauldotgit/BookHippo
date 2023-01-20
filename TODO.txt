@@ -1,0 +1,4 @@
+Things to do:
+
+Bugs to catch:
+- Sort names with mock data doesnt work

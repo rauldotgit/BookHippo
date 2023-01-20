@@ -49,16 +49,14 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-
-
     background-color: var(--pale-blue);
 }
 
 .login--container {
     display: grid;
     margin: 0;
-   
-    min-width: 25rem;
+    
+    min-width: 20rem;
 
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 3fr;
@@ -84,7 +82,6 @@
     
     background-color: var(--bright-blue);
 
-    padding: 0.5rem;
     border-radius: 0.5rem 0.5rem 0 0;
     color: white;
 }

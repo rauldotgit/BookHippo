@@ -73,7 +73,6 @@ body {
   align-items: center;
 }
 
-.customer--deleteButton,
 .navbar--lockButton,
 .newCustomer--submit {
   display: flex;
@@ -91,7 +90,7 @@ body {
   color: white;
 }
 
-.atButton:hover,
+.navbar--lockButton:hover,
 .lockButton:hover {
   background-color: #646cff;
 }
