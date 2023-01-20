@@ -37,7 +37,8 @@
 }
 
 .list--container{
-    width: 90%;
+  min-width: 100rem;
+  max-width: 120rem;
 }
 
 .list--newCustomerButton{
