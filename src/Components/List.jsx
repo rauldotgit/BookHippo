@@ -5,6 +5,13 @@ import {nanoid} from "nanoid"
 
 export default function List(){
 
+    React.useEffect(()=>{
+        localStorage.setItem("customers", JSON.stringify(data))
+        setCustomers(prevArray => {
+            return [...prevArray, ...data]
+        })
+    },[])
+
     const defaultData = {
         firstName: "",
         lastName: "",
@@ -100,12 +107,6 @@ export default function List(){
         switchAddButton()
     }
     
-    React.useEffect(()=>{
-        localStorage.setItem("customers", JSON.stringify(data))
-        setCustomers(prevArray => {
-            return [...prevArray, ...data]
-        })
-    },[])
 
     // The nano ID should be given when creating a new customer
     
