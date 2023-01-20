@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "RedHatDisplay";
+    src: url("../assets/Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: "RedHatDisplay";
+    src: url("../assets/Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf");
+    font-weight: 500;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: "RedHatDisplay";
+    src: url("../assets/Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: "RedHatDisplay";
+    src: url("../assets/Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf");
+    font-weight: 900;
+    font-style: normal;
+}
+  
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+  
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+  
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
+
+.navbar--container { 
+    display: grid;
+    grid-template-columns: 5.5rem 6fr 10rem 5rem;
+    grid-template-rows: 1fr;
+    align-items: ba;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+  
+    border-radius: 0.5rem;
+  
+    max-width: 110rem;
+    min-width: 100rem;
+    
+    background: var(--bright-blue);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.navbar--hippo{
+    height: 5rem;
+    filter: brightness(0) invert(1);
+    shape-rendering: geometricPrecision;
+}
+  
+.navbar--title {
+    font-size: 2.5rem;
+    color: white;
+    margin-top: 2.25rem;
+}
+  
+.navbar--mamuca{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+    align-self: center;
+    background-color: #646cff;
+    border-radius: 0.25rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    margin-right: 0.25rem;
+}
+  
+.navbar--lockButton {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: x-large;
+    height: 3rem;
+    width: 5rem;
+}
