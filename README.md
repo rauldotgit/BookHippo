@@ -40,7 +40,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./public/mainPageScreenshot.png)
+Login Component
+
+![Login Component](./public/loginPageScreenshot.png)
+
+Main Component
+
+![Main Component](./public/mainPageScreenshot.png)
 
 ### Links
 

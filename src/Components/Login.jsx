@@ -9,7 +9,7 @@ export default function Login(props){
     
     function handleSubmit(event) {
         event.preventDefault()
-        if(formData.password === "HookBippo"){
+        if(formData.password === "HookBippo123"){
             setFormData({password: ""})
             props.lock()
         } else console.log("wrong password")
